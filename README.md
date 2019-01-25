@@ -1,6 +1,6 @@
-# Slack Message step
+# Discord message step
 
-Send a Slack message from your [bitrise](https://www.bitrise.io/cli) build!
+Sends a message to Discord server via WebHook. Must be configured on Discord.
 
 
 ## How to use this Step
@@ -79,9 +79,3 @@ in the [bitrise CLI repository](https://github.com/bitrise-io/bitrise/blob/maste
 ## Share your own Step
 
 You can share your Step or step version with the [bitrise CLI](https://github.com/bitrise-io/bitrise). Just run `bitrise share` and follow the guide it prints.
-
-
-## Trigger a new release
-
-- __merge every code changes__ to the `master` branch
-- __push the new version tag__ to the `master` branch
